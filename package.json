@@ -1,0 +1,21 @@
+{
+  "name": "cub_graphqlmovie",
+  "version": "1.0.0",
+  "description": "movie api with graphql",
+  "main": "index.js",
+  "author": "zizimoos",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1"
+  }
+}
