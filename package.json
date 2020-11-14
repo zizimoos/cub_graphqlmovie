@@ -7,10 +7,12 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "axios": "^0.21.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
   },
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon --exec babel-node index.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
